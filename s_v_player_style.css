@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,700;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,900&display=swap');
+
+    html 
+    {
+     overflow: auto;
+    }
+     
+    iframe {
+     margin: 0px; 
+     padding: 0px; 
+     height: 100%; 
+     border: none;
+    display: block; 
+ width: 100%; 
+ border: none; 
+ overflow-y: auto; 
+ overflow-x: hidden;
+    }
+
+
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+
+      
+      figure {
+        position: relative;
+        box-shadow:
+          0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+          0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+          0 12.5px 10px rgba(0, 0, 0, 0.06),
+          0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+          0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+          0 100px 80px rgba(0, 0, 0, 0.12);
+        width: 50%;
+        right: 60px;
+      }
+      
+      video {
+        display: block;
+        width: 100%;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      
+      figcaption {
+        position: relative;
+        align-items: center;
+        background: #eaeaea;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 50px auto min(115px);
+        padding: .5rem;
+        
+      }
+      
+      button {
+        border: 0;
+        background: #2652ba;
+        display: inline;
+        color: white;
+        order: 1;
+        padding: .5rem;
+        transition: opacity .25s ease-out;
+        width: 100%;
+      }
+      button:hover {
+        cursor: pointer;
+        opacity: .8;
+      }
+      
+      label {
+        order: 2;
+        text-align: center;
+      }
+      
+      /* Fallback stuff */
+      progress[value] {
+        appearance: none;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0,.25) inset;
+        color: dodgerblue;
+        display: inline;
+        height: 15px;
+        order: 1;
+        position: relative;
+        width: 100%;
+      }
+      
+      /* WebKit styles */
+      progress[value]::-webkit-progress-bar {
+        background-color: whiteSmoke;
+        border-radius: 3px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0,.25) inset;
+      }
+      
+      progress[value]::-webkit-progress-value {
+        background-image: linear-gradient(
+          to right,
+          #00aeff, #372ee5
+        );
+        border-radius: 3px;
+        position: relative;
+        transition: width 1s linear;
+      }
+      
+      /* Firefox styles */
+      progress[value]::-moz-progress-bar {
+        background-image: -moz-linear-gradient(
+          to right,
+          #00aeff, #372ee5
+        );
+        border-radius: 3px;
+        position: relative;
+        transition: width 1s linear;
+      }
+
+      .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #3abde1;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .fullscreen {
+        border: 0;
+        background: #2652ba;
+        display: inline;
+        color: white;
+        order: 1;
+        padding: .10rem;
+        transition: opacity .25s ease-out;
+        width: 100%;
+      }
+
+
+
+
+
+
+
+
+
+
